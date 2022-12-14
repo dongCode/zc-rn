@@ -80,7 +80,7 @@ export default Button;
 - `components/button/demo/basic.tsx`
 
 ```jsx
-import { Button } from '@ant-design/react-native';
+import { Button } from 'zc-rn';
 import React from 'react';
 import { Text, View } from 'react-native';
 

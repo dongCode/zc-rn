@@ -1,9 +1,9 @@
 ---
 order: 0
-title: Ant Design Mobile RN of React
+title: zc-rn
 ---
 
-`@ant-design/react-native` is the React implementation of the [Ant Design](http://ant.design)'s mobile specification, serving the ant and koubei wireless service.
+`zc-rn` is the React implementation of the [Ant Design](http://ant.design)'s mobile specification, serving the ant and koubei wireless service.
 
 <div class="pic-plus">
   <img width="160" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
@@ -58,13 +58,13 @@ The complete procedure please check the document here: [antd-mobile-sample/creat
 ### 2. Installation
 
 ```bash
-$ npm install @ant-design/react-native --save
+$ npm install zc-rn --save
 ```
 
 or
 
 ```bash
-yarn add @ant-design/react-native
+yarn add zc-rn
 ```
 
 ### Link icon fonts
@@ -134,7 +134,7 @@ Example of usage:
 ```jsx
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
-import Button from '@ant-design/react-native/lib/button';
+import Button from 'zc-rn/lib/button';
 
 class HelloWorldApp extends Component {
   render() {
@@ -150,7 +150,7 @@ AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
 ```jsx
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
-import { Button, Provider, Toast } from '@ant-design/react-native';
+import { Button, Provider, Toast } from 'zc-rn';
 
 class HelloWorldApp extends Component {
   render() {
@@ -165,7 +165,7 @@ class HelloWorldApp extends Component {
 }
 ```
 
-##### Use modularized @ant-design/react-native
+##### Use modularized zc-rn
 
 The following two ways used to load the **only components you used**, select one of the ways you like.
 
@@ -175,15 +175,15 @@ The following two ways used to load the **only components you used**, select one
   // .babelrc or babel-loader option
   {
     "plugins": [
-      ["import", { libraryName: "@ant-design/react-native" }] // The difference with the Web platform is that you do not need to set the style
+      ["import", { libraryName: "zc-rn" }] // The difference with the Web platform is that you do not need to set the style
     ]
   }
   ```
 
-  Then just change the way of import modules from @ant-design/react-native.
+  Then just change the way of import modules from zc-rn.
 
   ```jsx
-  import { Button } from '@ant-design/react-native';
+  import { Button } from 'zc-rn';
   ```
 
   > Note: Some people reflected that it would be [unable to resolve module `react-dom`](https://github.com/ant-design/ant-design-mobile/issues/2054) in a project created with `react-native init`. If you encounter the same problem, you might try to install [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver).
@@ -191,7 +191,7 @@ The following two ways used to load the **only components you used**, select one
 - Manually import
 
   ```jsx
-  import Button from '@ant-design/react-native/lib/button';
+  import Button from 'zc-rn/lib/button';
   ```
 
 ##### More enhanced (optional):
@@ -201,8 +201,8 @@ The following two ways used to load the **only components you used**, select one
 
 ## Version
 
-- Stable: [![npm package](http://img.shields.io/npm/v/@ant-design/react-native.svg?style=flat-square)](http://npmjs.com/package/@ant-design/react-native)
-- Next: [![npm package](https://img.shields.io/npm/v/@ant-design/react-native/next.svg)](http://npmjs.com/package/@ant-design/react-native)
+- Stable: [![npm package](http://img.shields.io/npm/v/zc-rn.svg?style=flat-square)](http://npmjs.com/package/zc-rn)
+- Next: [![npm package](https://img.shields.io/npm/v/zc-rn/next.svg)](http://npmjs.com/package/zc-rn)
 
 ## Links
 
@@ -214,7 +214,7 @@ The following two ways used to load the **only components you used**, select one
 
 Please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design-mobile-rn/blob/master/.github/CONTRIBUTING.md) first.
 
-If you'd like to help us improve @ant-design/react-native, just create a [Pull Request](https://github.com/ant-design/ant-design-mobile-rn/pulls). Feel free to report bugs and issues [here](https://github.com/ant-design/ant-design-mobile-rn/issues/new).
+If you'd like to help us improve zc-rn, just create a [Pull Request](https://github.com/ant-design/ant-design-mobile-rn/pulls). Feel free to report bugs and issues [here](https://github.com/ant-design/ant-design-mobile-rn/issues/new).
 
 > If you're new to posting issues, we ask that you read [_How To Ask Questions The Smart Way_](http://www.catb.org/~esr/faqs/smart-questions.html) and [How to Ask a Question in Open Source Community](https://github.com/seajs/seajs/issues/545) and [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) prior to posting. Well written bug reports help us help you!
 

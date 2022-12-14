@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Layout
+
 title: View
 subtitle: 基础组件
 ---

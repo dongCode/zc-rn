@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { ListView } from '@ant-design/react-native';
+import { ListView } from 'zc-rn';
 
 export default class BasicListExample extends React.Component {
   state = {

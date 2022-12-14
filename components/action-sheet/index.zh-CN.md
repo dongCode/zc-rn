@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Feedback
+
 title: ActionSheet
 subtitle: 动作面板
 ---

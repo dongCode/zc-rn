@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { Card, WhiteSpace, WingBlank } from '@ant-design/react-native';
+import { Card, WhiteSpace, WingBlank } from 'zc-rn';
 export default class BasicCardExample extends React.Component {
   render() {
     return (

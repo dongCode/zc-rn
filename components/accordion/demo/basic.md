@@ -11,7 +11,7 @@ title:
 /* tslint:disable:no-console */
 import React from 'react';
 import { View } from 'react-native';
-import { Accordion, List } from '@ant-design/react-native';
+import { Accordion, List } from 'zc-rn';
 export default class AccordionExmple extends React.Component {
   constructor() {
     super(...arguments);

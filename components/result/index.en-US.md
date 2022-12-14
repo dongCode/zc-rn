@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Combination
+
 title: Result
 ---
 

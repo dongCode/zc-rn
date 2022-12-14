@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Entry
+
 title: PickerView
 subtitle: 选择器
 ---

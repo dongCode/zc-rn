@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Navigation
+
 title: TabBar
 subtitle: 标签栏
 ---

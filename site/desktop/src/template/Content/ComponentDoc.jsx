@@ -109,21 +109,6 @@ export default class ComponentDoc extends React.Component {
         )
       })
 
-    // const { protocol } = window.location;
-    // const path = doc.meta.filename.split('/')[1];
-    // const isLocalMode = window.location.port;
-    // const host = isLocalMode ? 'localhost:8002' : window.location.host;
-    // const demoUrl = `${protocol}//${host}/kitchen-sink/components/${path}`;
-
-    // const PopoverContent = (
-    //   <div>
-    //     <h4 style={{ margin: '8Px 0 12Px', textAlign: 'center' }}>
-    //       <FormattedMessage id="app.ComponentDoc.codeQrcode" />
-    //     </h4>
-    //     <QRCode size={144} value={demoUrl} />
-    //   </div>
-    // );
-
     const { title, subtitle, chinese, english } = meta
 
     const codeContainerCls = classnames('clearfix demo-code-container', {
@@ -141,9 +126,6 @@ export default class ComponentDoc extends React.Component {
           <section className="markdown">
             <h1 className="section-title">
               {meta.title || meta.english} {meta.subtitle || meta.chinese}
-              {/* <Popover content={PopoverContent} placement="bottom">
-                <Icon type="qrcode" />
-              </Popover> */}
             </h1>
             {props.utils.toReactComponent(
               ['section', { className: 'markdown' }].concat(

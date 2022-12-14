@@ -16,7 +16,7 @@ import {
   Flex,
   WhiteSpace,
   WingBlank,
-} from '@ant-design/react-native';
+} from 'zc-rn';
 export default class ActivityIndicatorExample extends React.Component {
   constructor(props) {
     super(props);

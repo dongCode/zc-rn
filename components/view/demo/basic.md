@@ -9,7 +9,7 @@ title:
 
 ```jsx
 import React from 'react';
-import { View } from '@ant-design/react-native';
+import { View } from 'zc-rn';
 
 export default class SafeViewExample extends React.Component {
   render() {

@@ -2,7 +2,7 @@
 category: Components
 title: Provider
 subtitle: 国际化和皮肤配置
-type: Other
+
 ---
 
 为组件内建文案提供统一的国际化支持。
@@ -13,7 +13,7 @@ Provider 使用 React 的 [context](https://facebook.github.io/react/docs/contex
 
 
 ```jsx
-import enUS from '@ant-design/react-native/lib/locale-provider/en_US';
+import enUS from 'zc-rn/lib/locale-provider/en_US';
 
 ...
 
@@ -34,5 +34,5 @@ return <Provider locale={enUS}><App /></Provider>;
 
 | 参数   | 说明                                                                                                                                                                     | 类型   | 默认值 |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------ |
-| locale | 语言包配置，语言包可到 `@ant-design/react-native/lib/locale-provider/` 目录下寻找                                                                                        | object | -      |
+| locale | 语言包配置，语言包可到 `zc-rn/lib/locale-provider/` 目录下寻找                                                                                        | object | -      |
 | theme  | 主题样式配置，可根据需要覆盖部分或者全部变量，具体变量请查看 [theme](https://github.com/ant-design/ant-design-mobile-rn/blob/master/components/style/themes/default.tsx) | object | -      |

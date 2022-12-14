@@ -59,7 +59,7 @@ npx react-native link
 
 **3.0.0** needs to install `react-native@0.57.x`
 
-- Change import to `import { Button, ... } from '@ant-design/react-native`
+- Change import to `import { Button, ... } from 'zc-rn`
 - Change `LocaleProvider` to `Provider` and the Provider are required from now on.
 
 - Provider
@@ -105,7 +105,7 @@ If you are at react-native@0.60.x after you install the package it will link aut
 or if you want link it manually.
 
 ```sh
-react-native link @ant-design/react-native
+react-native link zc-rn
 ```
 
 ### 2.1.11 and before

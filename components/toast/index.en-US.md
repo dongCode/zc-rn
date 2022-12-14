@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Feedback
+
 title: Toast
 ---
 
@@ -30,7 +30,7 @@ Props has these fields:
 > **Notice：** OnClose is invalid and Toast does not hide, If set duration = 0, toast will not auto hide, you have to manually do it.
 
 ```js
-import { Toast } from '@ant-design/react-native';
+import { Toast } from 'zc-rn';
 
 const key = Toast.loading('message');
 Toast.remove(key);

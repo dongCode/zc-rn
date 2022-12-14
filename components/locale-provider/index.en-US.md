@@ -1,7 +1,7 @@
 ---
 category: Components
 title: Provider
-type: Other
+
 ---
 
 `Provider` provides a uniform localization support for built-in text of components.
@@ -12,7 +12,7 @@ type: Other
 
 
 ```jsx
-import enUS from '@ant-design/react-native/lib/locale-provider/en_US';
+import enUS from 'zc-rn/lib/locale-provider/en_US';
 
 ...
 
@@ -33,5 +33,5 @@ This component aims for localization of the built-in text, if you want to suppor
 
 | Property | Description                                                                                                                     | Type   | Default |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |
-| locale   | anguage package setting, you can find the packages in this path: `@ant-design/react-native/lib/locale-provider/`                | object | -       |
+| locale   | anguage package setting, you can find the packages in this path: `zc-rn/lib/locale-provider/`                | object | -       |
 | theme    | Theme customization [theme](https://github.com/ant-design/ant-design-mobile-rn/blob/master/components/style/themes/default.tsx) | object | -       |

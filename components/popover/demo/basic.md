@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { List, Popover } from '@ant-design/react-native';
+import { List, Popover } from 'zc-rn';
 const Item = Popover.Item;
 export default class PopoverExample extends React.Component {
   constructor(props) {

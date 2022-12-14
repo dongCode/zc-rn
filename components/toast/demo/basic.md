@@ -18,7 +18,7 @@ import {
   WhiteSpace,
   WingBlank,
   portal,
-} from '@ant-design/react-native';
+} from 'zc-rn';
 function showToast() {
   // multiple toast
   Toast.info('This is a toast tips 1 !!!', 4);

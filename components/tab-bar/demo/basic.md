@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { Icon, SearchBar, TabBar } from '@ant-design/react-native';
+import { Icon, SearchBar, TabBar } from 'zc-rn';
 export default class BasicTabBarExample extends React.Component {
   constructor(props) {
     super(props);

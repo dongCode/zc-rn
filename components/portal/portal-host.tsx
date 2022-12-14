@@ -52,7 +52,7 @@ export const portal = new PortalGuard()
  * ```js
  * import * as React from 'react';
  * import { Text } from 'react-native';
- * import { Portal } from '@ant-design/react-native';
+ * import { Portal } from 'zc-rn';
  *
  * export default class MyComponent extends React.Component {
  *   render() {

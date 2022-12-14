@@ -61,8 +61,8 @@ module.exports = {
     alertBabelConfig(config.module.rules)
 
     config.resolve.alias = {
-      '@ant-design/react-native/lib': path.join(process.cwd(), 'components'),
-      '@ant-design/react-native': process.cwd(),
+      'zc-rn/lib': path.join(process.cwd(), 'components'),
+      'zc-rn': process.cwd(),
       site: path.join(process.cwd(), 'site'),
     }
     if (!useReact) {
@@ -97,26 +97,8 @@ module.exports = {
   themeConfig: {
     siteTitle: '众丞 RN',
     siteSubTitle: '众丞移动端 React Native 组件库',
-    categoryOrder: [
-      'Layout',
-      'Navigation',
-      'Data Entry',
-      'Data Display',
-      'Feedback',
-      'Gesture',
-      'Combination',
-      'Other',
-    ],
-    cateChinese: {
-      Layout: '布局',
-      Navigation: '导航',
-      'Data Entry': '数据录入',
-      'Data Display': '数据展示',
-      Feedback: '操作反馈',
-      Gesture: '手势',
-      Combination: '组合组件',
-      Other: '其他',
-    },
+    categoryOrder: [],
+    cateChinese: {},
     docVersions: {},
   },
   devServerConfig: {

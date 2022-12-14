@@ -147,10 +147,7 @@ export default class Demo extends React.Component {
 
     const riddlePrefillConfig = {
       title: `${localizedTitle} - Ant Design Mobile RN Demo`,
-      js: sourceCode.replace(
-        "from '../../'",
-        "from '@ant-design/react-native'",
-      ),
+      js: sourceCode.replace("from '../../'", "from 'zc-rn'"),
       css: prefillStyle.replace("'antd-mobile/", "'antd-mobile/"),
     }
     return Array.isArray(highlightedCode) ? (
@@ -227,7 +224,7 @@ export default class Demo extends React.Component {
       () => this.sandbox(),
     )
   }
-  replaceLibName = (code) => code.replace('../../', '@ant-design/react-native')
+  replaceLibName = (code) => code.replace('../../', 'zc-rn')
   render() {
     const { props, state } = this
     const {

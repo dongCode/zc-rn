@@ -4,7 +4,7 @@ title: Change Log
 toc: false
 ---
 
-`@ant-design/react-native` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
+`zc-rn` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
 
 #### Release Schedule
 
@@ -189,7 +189,7 @@ Happy Chinese New Year
 
 **Breaking Changes** for more informations please checkout [#119](https://github.com/ant-design/ant-design-mobile-rn/issues/119)
 
-- We get a new package name `@ant-design/react-native` from [afc163](https://github.com/afc163). Thanks..
+- We get a new package name `zc-rn` from [afc163](https://github.com/afc163). Thanks..
 - Remove the native suffix
 - More friendly theme support
 - Improve TypeScript type definitions

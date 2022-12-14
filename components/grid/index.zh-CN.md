@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Display
+
 title: Grid
 subtitle: 宫格
 ---

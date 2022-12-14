@@ -1,6 +1,5 @@
 ---
 category: Components
-type: Data Display
 title: Accordion
 subtitle: 手风琴
 ---

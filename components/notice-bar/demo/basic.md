@@ -11,7 +11,7 @@ title:
 /* tslint:disable:no-console */
 import React from 'react';
 import { Image, Text, View } from 'react-native';
-import { NoticeBar, WhiteSpace } from '@ant-design/react-native';
+import { NoticeBar, WhiteSpace } from 'zc-rn';
 export default class NoticeBarExample extends React.Component {
   render() {
     const customIcon = (

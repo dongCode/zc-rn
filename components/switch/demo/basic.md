@@ -9,7 +9,7 @@ title:
 
 ```jsx
 import React from 'react';
-import { List, Switch } from '@ant-design/react-native';
+import { List, Switch } from 'zc-rn';
 export default class SwitchExample extends React.Component {
   constructor(props) {
     super(props);

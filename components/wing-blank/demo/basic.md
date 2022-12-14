@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { WhiteSpace, WingBlank } from '@ant-design/react-native';
+import { WhiteSpace, WingBlank } from 'zc-rn';
 
 const PlaceHolder = props => (
   <View

@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { DatePickerView, Provider } from '@ant-design/react-native';
+import { DatePickerView, Provider } from 'zc-rn';
 export default class DatePickerViewExample extends React.Component {
   constructor() {
     super(...arguments);

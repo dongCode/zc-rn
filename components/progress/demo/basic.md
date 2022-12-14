@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { Button, Progress, WhiteSpace } from '@ant-design/react-native';
+import { Button, Progress, WhiteSpace } from 'zc-rn';
 export default class BasicProgressExample extends React.Component {
   constructor(props) {
     super(props);

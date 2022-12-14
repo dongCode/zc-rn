@@ -9,7 +9,7 @@ title:
 
 ```jsx
 import React from 'react';
-import { Pagination, WhiteSpace, WingBlank } from '@ant-design/react-native';
+import { Pagination, WhiteSpace, WingBlank } from 'zc-rn';
 const locale = {
   prevText: '上一步',
   nextText: '下一步',

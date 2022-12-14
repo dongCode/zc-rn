@@ -4,7 +4,7 @@ title: 更新日志
 toc: false
 ---
 
-`@ant-design/react-native` 严格遵循 [Semantic Versioning 2.0.0](http://semver.org/lang/zh-CN/) 语义化版本规范。
+`zc-rn` 严格遵循 [Semantic Versioning 2.0.0](http://semver.org/lang/zh-CN/) 语义化版本规范。
 
 #### 发布周期
 
@@ -190,7 +190,7 @@ toc: false
 
 **不兼容更新** 更多信息请查看 [#119](https://github.com/ant-design/ant-design-mobile-rn/issues/119)
 
-- 全新的包名 `@ant-design/react-native` 谢谢 [afc163](https://github.com/afc163) 提供
+- 全新的包名 `zc-rn` 谢谢 [afc163](https://github.com/afc163) 提供
 - 组件文件重命名，去掉了之前的`.native`后缀
 - 更友好的主题支持，方便用户自定义，全新的 `Provider`
 - 重构了所有组件支持自定义局部样式

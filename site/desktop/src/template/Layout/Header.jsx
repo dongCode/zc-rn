@@ -1,4 +1,4 @@
-import { version as antdVersion } from '@ant-design/react-native/package.json'
+import { version as antdVersion } from 'zc-rn/package.json'
 import {
   AutoComplete,
   Button,

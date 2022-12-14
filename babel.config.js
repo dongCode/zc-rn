@@ -5,7 +5,7 @@ module.exports = {
     [
       'import',
       {
-        libraryName: '@ant-design/react-native',
+        libraryName: 'zc-rn',
         customName: (name) => {
           return path.resolve(__dirname, `./components/${name}`)
         },

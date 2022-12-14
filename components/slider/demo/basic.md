@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { Slider } from '@ant-design/react-native';
+import { Slider } from 'zc-rn';
 export default class BasicSliderExample extends React.Component {
   constructor(props) {
     super(props);

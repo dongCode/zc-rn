@@ -11,7 +11,7 @@ title:
 import { district } from 'antd-mobile-demo-data';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import { List, Picker, Provider } from '@ant-design/react-native';
+import { List, Picker, Provider } from 'zc-rn';
 const data = require('@bang88/china-city-data');
 const CustomChildren = props => (
   <TouchableOpacity onPress={props.onPress}>

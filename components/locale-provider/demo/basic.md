@@ -19,12 +19,12 @@ import {
   WhiteSpace,
   WingBlank,
   Provider,
-} from '@ant-design/react-native';
-import enUS from '@ant-design/react-native/es/locale-provider/en_US';
-import esES from '@ant-design/react-native/es/locale-provider/es_ES';
-import ruRU from '@ant-design/react-native/es/locale-provider/ru_RU';
-import zhCN from '@ant-design/react-native/es/locale-provider/zh_CN';
-import ptBR from '@ant-design/react-native/es/locale-provider/pt_BR';
+} from 'zc-rn';
+import enUS from 'zc-rn/es/locale-provider/en_US';
+import esES from 'zc-rn/es/locale-provider/es_ES';
+import ruRU from 'zc-rn/es/locale-provider/ru_RU';
+import zhCN from 'zc-rn/es/locale-provider/zh_CN';
+import ptBR from 'zc-rn/es/locale-provider/pt_BR';
 
 const maxDate = new Date(2018, 11, 3, 22, 0);
 const minDate = new Date(2015, 7, 6, 8, 30);

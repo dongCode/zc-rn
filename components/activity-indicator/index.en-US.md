@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Feedback
+
 title: ActivityIndicator
 ---
 

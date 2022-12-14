@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Entry
+
 title: InputItem
 subtitle: 文本输入
 ---

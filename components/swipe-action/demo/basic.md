@@ -11,7 +11,7 @@ title:
 /* tslint:disable:no-console */
 import React from 'react';
 import { View } from 'react-native';
-import { List, SwipeAction } from '@ant-design/react-native';
+import { List, SwipeAction } from 'zc-rn';
 export default class BasicSwipeActionExample extends React.Component {
   render() {
     const right = [

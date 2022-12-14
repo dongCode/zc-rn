@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { List, Radio, WhiteSpace } from '@ant-design/react-native';
+import { List, Radio, WhiteSpace } from 'zc-rn';
 const RadioItem = Radio.RadioItem;
 export default class BasicRadioExample extends React.Component {
   constructor() {

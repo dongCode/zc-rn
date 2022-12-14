@@ -18,7 +18,7 @@ import {
   WingBlank,
   Toast,
   Provider,
-} from '@ant-design/react-native';
+} from 'zc-rn';
 export class BasicModalExample extends React.Component {
   constructor(props) {
     super(props);

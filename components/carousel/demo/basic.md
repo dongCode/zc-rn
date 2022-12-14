@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Carousel } from '@ant-design/react-native';
+import { Carousel } from 'zc-rn';
 export default class BasicCarouselExample extends React.Component {
   onHorizontalSelectedIndexChange(index) {
     /* tslint:disable: no-console */

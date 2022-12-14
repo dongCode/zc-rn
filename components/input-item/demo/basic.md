@@ -11,7 +11,7 @@ title:
 
 import React from 'react';
 import { ScrollView, Text } from 'react-native';
-import { Button, InputItem, List } from '@ant-design/react-native';
+import { Button, InputItem, List } from 'zc-rn';
 export default class BasicInputItemExample extends React.Component {
   constructor(props) {
     super(props);

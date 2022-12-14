@@ -7,7 +7,7 @@ node = 10+
 npm = 3+
 ```
 
-## Code convention for @ant-design/react-native
+## Code convention for zc-rn
 
 TypeScript
 
@@ -80,7 +80,7 @@ export default Button;
 - `components/button/demo/basic.tsx`
 
 ```jsx
-import { Button } from '@ant-design/react-native';
+import { Button } from 'zc-rn';
 import * as React from 'react';
 import { Text, View } from 'react-native';
 

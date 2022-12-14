@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Entry
+
 title: DatePicker
 subtitle: 日期选择
 ---

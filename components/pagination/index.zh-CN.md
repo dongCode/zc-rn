@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Navigation
+
 title: Pagination
 subtitle: 分页器
 ---

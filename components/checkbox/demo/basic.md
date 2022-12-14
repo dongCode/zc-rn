@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { Checkbox, List, WhiteSpace } from '@ant-design/react-native';
+import { Checkbox, List, WhiteSpace } from 'zc-rn';
 const AgreeItem = Checkbox.AgreeItem;
 const CheckboxItem = Checkbox.CheckboxItem;
 export default class BasicCheckboxExample extends React.Component {

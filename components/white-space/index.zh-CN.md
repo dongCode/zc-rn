@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Layout
+
 title: WhiteSpace
 subtitle: 上下留白
 ---

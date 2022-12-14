@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { Button, Drawer, List, WhiteSpace } from '@ant-design/react-native';
+import { Button, Drawer, List, WhiteSpace } from 'zc-rn';
 const styles = StyleSheet.create({
   container: {
     flex: 1,

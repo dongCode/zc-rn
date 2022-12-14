@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Display
+
 cols: 1
 title: Steps
 ---

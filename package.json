@@ -36,6 +36,7 @@
     "classnames": "^2.2.1",
     "normalize-css-color": "^1.0.2",
     "rc-util": "^4.21.1",
+    "react-hook-form": "^7.40.0",
     "react-native-codegen": "^0.0.7",
     "react-native-collapsible": "^1.6.0",
     "react-native-modal-popover": "^2.0.1",

@@ -10,7 +10,7 @@ title:
 ````jsx
 import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
-import { Result } from '@ant-design/react-native';
+import { Result } from 'zc-rn';
 export default class ResultExample extends React.Component {
     render() {
         return (<ScrollView style={{ backgroundColor: '#F5F5F9', flex: 1 }}>

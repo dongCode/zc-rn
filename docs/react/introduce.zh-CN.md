@@ -1,15 +1,10 @@
 ---
 order: 0
-title: Ant Design Mobile RN of React
+title: 众丞 RN
 ---
 
-`@ant-design/react-native` 是 [Ant Design](http://ant.design) 的移动规范的 React 实现，服务于蚂蚁及口碑无线业务。
+`zc-rn` 是服务于众丞rn业务线的组件库。
 
-<div class="pic-plus">
-  <img width="160" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-  <span>+</span>
-  <img width="160" src="https://t.alipayobjects.com/images/rmsweb/T16xRhXkxbXXXXXXXX.svg">
-</div>
 
 <style>
 .pic-plus > * {
@@ -48,23 +43,18 @@ title: Ant Design Mobile RN of React
 
 ### 1. 创建一个项目
 
-可以是已有项目，或者是使用 create-react-native-app 新创建的空项目，你也可以从 [官方示例](https://github.com/ant-design/antd-mobile-samples/tree/master/rn-web) 脚手架里拷贝并修改
-
-> 参考更多[官方示例集](https://github.com/ant-design/antd-mobile-samples)
-> 或者你可以利用 React 生态圈中的 [各种脚手架](https://github.com/enaqx/awesome-react#boilerplates)
-
-完整步骤请查看此处文档： [antd-mobile-sample/create-react-native-app](https://github.com/ant-design/antd-mobile-samples/tree/master/create-react-native-app)
+可以是已有项目，或者是使用 create-react-native-app 新创建的空项目
 
 ### 2. 安装
 
 ```bash
-npm install @ant-design/react-native --save
+npm install zc-rn --save
 ```
 
 or
 
 ```bash
-yarn add @ant-design/react-native
+yarn add zc-rn
 ```
 
 ### 链接字体图标
@@ -134,7 +124,7 @@ import * as Font from 'expo-font';
 ```jsx
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
-import Button from '@ant-design/react-native/lib/button';
+import Button from 'zc-rn/lib/button';
 
 class HelloWorldApp extends Component {
   render() {
@@ -150,7 +140,7 @@ AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
 ```jsx
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
-import { Button, Provider, Toast } from '@ant-design/react-native';
+import { Button, Provider, Toast } from 'zc-rn';
 
 class HelloWorldApp extends Component {
   render() {
@@ -175,15 +165,15 @@ class HelloWorldApp extends Component {
   // .babelrc or babel-loader option
   {
     "plugins": [
-      ["import", { libraryName: "@ant-design/react-native" }] // 与 Web 平台的区别是不需要设置 style
+      ["import", { libraryName: "zc-rn" }] // 与 Web 平台的区别是不需要设置 style
     ]
   }
   ```
 
-  然后改变从 @ant-design/react-native 引入模块方式即可。
+  然后改变从 zc-rn 引入模块方式即可。
 
   ```jsx
-  import { Button } from '@ant-design/react-native';
+  import { Button } from 'zc-rn';
   ```
 
   > 说明：有人反映通过 `react-native init` 创建的项目在使用时可能会报 [Unable to resolve module `react-dom`](https://github.com/ant-design/ant-design-mobile/issues/2054) 的错误 ，此时不妨安装 [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) 试试~
@@ -191,7 +181,7 @@ class HelloWorldApp extends Component {
 - 手动引入
 
   ```jsx
-  import Button from '@ant-design/react-native/lib/button';
+  import Button from 'zc-rn/lib/button';
   ```
 
 ##### 更多增强 (非必须):
@@ -201,8 +191,8 @@ class HelloWorldApp extends Component {
 
 ## 版本
 
-- 稳定版：[![npm package](http://img.shields.io/npm/v/@ant-design/react-native.svg?style=flat-square)](http://npmjs.com/package/@ant-design/react-native)
-- 开发版：[![npm package](https://img.shields.io/npm/v/@ant-design/react-native/next.svg)](http://npmjs.com/package/@ant-design/react-native)
+- 稳定版：[![npm package](http://img.shields.io/npm/v/zc-rn.svg?style=flat-square)](http://npmjs.com/package/zc-rn)
+- 开发版：[![npm package](https://img.shields.io/npm/v/zc-rn/next.svg)](http://npmjs.com/package/zc-rn)
 
 ## 链接
 

@@ -9,7 +9,7 @@ title:
 
 ```jsx
 import React from 'react';
-import { Grid, Icon } from '@ant-design/react-native';
+import { Grid, Icon } from 'zc-rn';
 import { ScrollView } from 'react-native';
 import { outlineGlyphMap } from '@ant-design/icons-react-native/lib/outline';
 export default class IConDemo extends React.Component {

@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Feedback
+
 title: Toast
 subtitle: 轻提示
 ---
@@ -31,7 +31,7 @@ Props 参数如下：
 > **注：**  duration = 0 时，onClose 无效，toast 不会消失，隐藏 toast 需要手动调用 remove
 
 ```js
-import { Toast } from '@ant-design/react-native';
+import { Toast } from 'zc-rn';
 
 const key = Toast.loading('message');
 Toast.remove(key);

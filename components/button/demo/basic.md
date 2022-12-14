@@ -11,7 +11,7 @@ title:
 /* tslint:disable:no-unused-variable */
 
 import React from 'react';
-import { Button, WhiteSpace, WingBlank } from '@ant-design/react-native';
+import { Button, WhiteSpace, WingBlank } from 'zc-rn';
 
 /* tslint:disable:no-console */
 export default () => (

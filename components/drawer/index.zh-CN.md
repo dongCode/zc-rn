@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Navigation
+
 title: Drawer
 subtitle: 抽屉
 ---

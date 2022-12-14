@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { Alert, View } from 'react-native';
-import { SearchBar } from '@ant-design/react-native';
+import { SearchBar } from 'zc-rn';
 export default class SearchBarDemo extends React.Component {
   constructor() {
     super(...arguments);

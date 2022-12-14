@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Navigation
+
 title: SegmentedControl
 subtitle: 分段器
 ---

@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Data Entry
+
 title: Switch
 subtitle: 滑动开关
 ---

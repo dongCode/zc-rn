@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { View } from 'react-native';
-import { DatePicker, List, Provider } from '@ant-design/react-native';
+import { DatePicker, List, Provider } from 'zc-rn';
 // const now = new Date();
 export default class PopupExample extends React.Component {
   constructor(props) {

@@ -11,7 +11,7 @@ title:
 /* tslint:disable:no-console */
 import React from 'react';
 import { View } from 'react-native';
-import { List, Stepper } from '@ant-design/react-native';
+import { List, Stepper } from 'zc-rn';
 function onChange(value) {
   console.log('changed', value);
 }

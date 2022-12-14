@@ -11,7 +11,7 @@ title:
 // tslint:disable:no-empty
 import React from 'react';
 import { Image, ScrollView, View } from 'react-native';
-import { List } from '@ant-design/react-native';
+import { List } from 'zc-rn';
 const Item = List.Item;
 const Brief = Item.Brief;
 export default class BasicListExample extends React.Component {

@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Layout
+
 title: Flex
 subtitle: Flex布局
 ---

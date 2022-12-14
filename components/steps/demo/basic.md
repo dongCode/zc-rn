@@ -10,7 +10,7 @@ title:
 ```jsx
 import React from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { Icon, Steps, WingBlank } from '@ant-design/react-native';
+import { Icon, Steps, WingBlank } from 'zc-rn';
 const Step = Steps.Step;
 export default class BasicTimelineExample extends React.Component {
   constructor(props) {

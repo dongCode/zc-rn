@@ -1,6 +1,6 @@
 ---
 category: Components
-type: Layout
+
 title: WingBlank
 subtitle: 两翼留白
 ---
