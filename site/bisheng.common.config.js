@@ -95,8 +95,8 @@ module.exports = {
     // useHD: process.env.HD_ENV === 'hd',
   },
   themeConfig: {
-    siteTitle: 'Ant Design Mobile RN',
-    siteSubTitle: '支付宝移动端 React Native 组件库',
+    siteTitle: '众丞 RN',
+    siteSubTitle: '众丞移动端 React Native 组件库',
     categoryOrder: [
       'Layout',
       'Navigation',
@@ -117,9 +117,7 @@ module.exports = {
       Combination: '组合组件',
       Other: '其他',
     },
-    docVersions: {
-      '3.x': 'https://3x.rn.mobile.ant.design',
-    },
+    docVersions: {},
   },
   devServerConfig: {
     disableHostCheck: true,

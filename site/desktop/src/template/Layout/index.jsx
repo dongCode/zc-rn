@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 import { addLocaleData, IntlProvider } from 'react-intl'
 import Header from './Header'
-import Footer from './Footer'
 import enLocale from '../../en-US'
 import cnLocale from '../../zh-CN'
 import * as utils from '../../../../utils'
@@ -59,6 +58,7 @@ export default class Layout extends React.Component {
   render() {
     const { children, ...restProps } = this.props
     const { appLocale, isFirstScreen } = this.state
+    console.log('restProps', restProps)
     return (
       <IntlProvider locale={appLocale.locale} messages={appLocale.messages}>
         <div className="page-wrapper">
@@ -67,7 +67,6 @@ export default class Layout extends React.Component {
             isFirstScreen,
             onEnterChange: this.onEnterChange,
           })}
-          <Footer {...restProps} />
         </div>
       </IntlProvider>
     )

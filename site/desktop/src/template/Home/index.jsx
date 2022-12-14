@@ -45,14 +45,14 @@ class Home extends React.Component {
 
     return (
       <DocumentTitle
-        title={`Ant Design Mobile - ${this.props.intl.formatMessage({
+        title={`众丞 - ${this.props.intl.formatMessage({
           id: 'app.home.slogan',
         })}`}>
         <div className="main-wrapper">
           <section className="home-s1">
             <div className="banner-wrapper">
               <div className="banner-text-wrapper">
-                <h2 key="h2">Ant Design Mobile RN</h2>
+                <h2 key="h2">众丞 RN组件库</h2>
                 <p>
                   {this.props.intl.formatMessage({ id: 'app.home.epitomize' })}
                 </p>
@@ -64,22 +64,11 @@ class Home extends React.Component {
                       })}
                     </Button>
                   </Link>
-                  {/* <Popover
-                    placement="bottom"
-                    trigger="click"
-                    content={
-                      <img className="home-qr" src="https://zos.alipayobjects.com/rmsportal/TrdkqxQcrAUcmYelQUNK.png" alt="qrcode" />
-                    }
-                  >
-                    <Button type="primary" ghost>
-                      {this.props.intl.formatMessage({ id: 'app.home.qrtip' })}
-                    </Button>
-                  </Popover> */}
                   <GitHubButton
                     key="github-button"
                     type="stargazers"
-                    namespace="ant-design"
-                    repo="ant-design-mobile-rn"
+                    namespace="dongCode"
+                    repo="zc-rn"
                   />
                 </div>
               </div>
@@ -172,70 +161,6 @@ class Home extends React.Component {
                       })}
                     </p>
                   </div>
-                </Col>
-              </Row>
-            </div>
-          </section>
-          <section className="home-s3">
-            <div className="wrapper">
-              <h3>
-                <img
-                  src="https://gw.alipayobjects.com/zos/rmsportal/EzhXjBHtavGDkTbewrvp.png"
-                  alt=""
-                />
-                {this.props.intl.formatMessage({ id: 'app.home.s3_title' })}
-              </h3>
-              <p>{this.props.intl.formatMessage({ id: 'app.home.s3_des' })}</p>
-              <a href="http://p.tb.cn/rmsportal_3436_AntDesignMobile_20Template_20V1.0.sketch">
-                <Button size="large" ghost>
-                  {this.props.intl.formatMessage({ id: 'app.home.s3_btn' })}
-                </Button>
-              </a>
-            </div>
-          </section>
-          <section className="home-s4">
-            <div className="wrapper">
-              <h3>
-                {this.props.intl.formatMessage({ id: 'app.home.s4_title' })}
-              </h3>
-              <Row style={{ marginBottom: 48 }}>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/BGcxWbIWmgBlIChNOpqp.png"
-                    alt=""
-                  />
-                </Col>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/qTKmDWNtAZMaYarVLIZT.png"
-                    alt=""
-                  />
-                </Col>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/ARwKOjaDethbuHOfMWOW.png"
-                    alt=""
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/HinWzLTHESDKjWqvqChF.png"
-                    alt=""
-                  />
-                </Col>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/MHkXUADpUDavOJfLrMpy.png"
-                    alt=""
-                  />
-                </Col>
-                <Col span={8}>
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/YEiMaxUWGRExNqYAwQhy.png"
-                    alt=""
-                  />
                 </Col>
               </Row>
             </div>

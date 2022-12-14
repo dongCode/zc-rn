@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/react-native",
-  "version": "5.0.2",
-  "description": "基于蚂蚁金服移动设计规范的 React Native 组件库",
+  "name": "zc-rn",
+  "version": "0.0.1",
+  "description": "众丞组件库",
   "keywords": [
     "ant",
     "design",
@@ -17,10 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ant-design/ant-design-mobile-rn"
-  },
-  "bugs": {
-    "url": "http://github.com/ant-design/ant-design-mobile-rn/issues"
+    "url": "https://github.com/dongCode/zc-rn"
   },
   "files": [
     "lib",

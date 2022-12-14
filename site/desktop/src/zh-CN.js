@@ -12,7 +12,7 @@ module.exports = {
     'app.header.menu.web': 'Web 组件',
     'app.header.menu.pc': '桌面版',
     'app.header.lang': 'EN',
-    'app.home.slogan': '移动端设计规范',
+    'app.home.slogan': 'react native设计规范',
     'app.home.epitomize': '一个基于 React Native 的 UI 组件库',
     'app.home.centerStart': '开始探索',
     'app.home.qrtip': '扫描演示',

@@ -219,21 +219,6 @@ export default class Header extends React.Component {
             <FormattedMessage id="app.header.menu.components" />
           </Link>
         </Menu.Item>
-        <Menu.Item key="web">
-          <a href="//mobile.ant.design">
-            <FormattedMessage id="app.header.menu.web" />
-          </a>
-        </Menu.Item>
-        <Menu.Item key="docs/react/support">
-          <Link to={utils.getLocalizedPathname('/docs/react/support', isZhCN)}>
-            <FormattedMessage id="app.header.menu.support" />
-          </Link>
-        </Menu.Item>
-        {/* <Menu.Item key="pc">
-          <a href="//ant.design">
-            <FormattedMessage id="app.header.menu.pc" />
-          </a>
-        </Menu.Item> */}
       </Menu>,
     ]
 
